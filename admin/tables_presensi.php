@@ -76,7 +76,6 @@ if ($cek2 > 0) {
     $row2 = mysqli_fetch_assoc($result2);
 
     ?>
-                    
 
                     <strong><?php echo $_SESSION['name'] ?></strong>
 
@@ -101,7 +100,7 @@ if ($cek2 > 0) {
         <!-- Sidebar -->
         <ul class="sidebar navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="Admin.php">
+                <a class="nav-link" href="index.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span>
                 </a>
@@ -125,7 +124,7 @@ if ($_SESSION['role'] == "Admin") {
                     <span>Table Mahasiswa</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="tables-presensi.php">
+                <a class="nav-link" href="tables_presensi.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Table Presensi</span></a>
             </li>
@@ -203,7 +202,6 @@ if (mysqli_num_rows($result) > 0) {
                                         <td><?php echo $row['makul'] ?></td>
                                         <td><?php echo $row['kelas'] ?></td>
                                         <td><?php echo $row['nim'] ?></td>
-
                                         <td><?php echo $row['nama'] ?></td>
                                         <td><?php echo $row['status_presensi'] ?></td>
 

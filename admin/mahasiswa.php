@@ -133,7 +133,7 @@ $result1 = mysqli_query($conn, $sql2);
           <li class="breadcrumb-item active">Data Mahasiswa</li>
         </ol>
         <ol>
-          <a href="form_upload_admin.php"><button type="button" class="btn btn-primary">Add User</button></a>
+          <a href="form_upload_admin.php"><button type="button" class="btn btn-primary">Tambah Mahasiswa</button></a>
         </ol>
 
         <!-- Icon Cards
